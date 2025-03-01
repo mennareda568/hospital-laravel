@@ -1,0 +1,22 @@
+{
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_a871a30e573bd4a96141e2a08fd42639"
+    },
+    "font awesome 6 free": {
+        "normal": "D:\\website\\storage\\fonts\/font_awesome_6_free_normal_a613ece735316a553529376a66d35b26",
+        "900": "font_awesome_6_free_900_077fea1bc359b74ecdfe991d4b749fee"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_a871a30e573bd4a96141e2a08fd42639"
+    },
+    "font awesome 5 free": {
+        "900": "D:\\website\\storage\\fonts\/font_awesome_5_free_900_077fea1bc359b74ecdfe991d4b749fee",
+        "normal": "font_awesome_5_free_normal_a613ece735316a553529376a66d35b26"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_c907d906dd48cac7662497c582daa2a0"
+    },
+    "nunito": {
+        "normal": "nunito_normal_51264aea5373c13e99081e0e39bbfb0d"
+    }
+}

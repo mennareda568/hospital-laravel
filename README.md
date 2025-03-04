@@ -38,12 +38,11 @@ Installation Guide:
 
 4_Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-
   *Create a database with name hospital
 
-5_php artisan migrate 
+5_Upload .env and connect it with database
 
-6_Upload .env and connect it with database
+6_php artisan migrate 
 
 7_php artisan serve 
 

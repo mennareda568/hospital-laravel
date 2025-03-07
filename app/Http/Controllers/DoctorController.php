@@ -45,10 +45,17 @@ class DoctorController extends Controller
     }
 
     //  delete doctor for admin
-    public function delete($id)
+      public function delete($id)
     {
         $user = User::findOrFail($id);
         $Doctor = Doctor::findOrFail($id);
+        $imageName = $Doctor->doc_image;
+
+        $imagePath = public_path('img/doctors/' . $imageName);
+        if (file_exists($imagePath)) {
+            unlink($imagePath);  
+        }
+
         Patientbooking::where('doctoremail', $Doctor->email)->delete();
         Patient::where('doctoremail', $Doctor->email)->delete();
 
